@@ -20,7 +20,7 @@
 // frontend/src/utils.js
 import { toast } from "react-toastify";
 
-export const API_URL = "https://task-manager-api-alpha-weld.vercel.app"; // ✅ Backend URL
+export const API_URL = "http://localhost:8080"; // ✅ Backend URL
 
 // ✅ Toast notification helper
 export const notify = (message, type) => {
